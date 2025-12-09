@@ -1,3 +1,6 @@
+# agv_app_msgs\msg\AppRequest.msg
+# 从 grpc_server 到 agv_app_server 的请求消息
+
 # 消息头，包含时间戳
 std_msgs/Header header
 

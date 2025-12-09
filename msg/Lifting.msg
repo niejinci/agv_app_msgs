@@ -1,4 +1,5 @@
 # agv_app_msgs/msg/Lifting.msg
+# 托盘顶升/下降
 
 # 动作类型常量定义
 string PICK = "pick"    # 顶升动作

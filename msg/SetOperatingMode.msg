@@ -1,4 +1,5 @@
 # agv_app_msgs/msg/SetOperatingMode.msg
+# 设置小车控制模式
 
 # 操作模式常量定义
 string AUTOMATIC = "AUTOMATIC"          # 自动模式

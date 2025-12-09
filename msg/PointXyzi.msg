@@ -1,4 +1,5 @@
 # agv_app_msgs\msg\PointXyzi.msg
+# 点云信息
 
 # 目标点的X坐标 (单位: m)
 float32 x

@@ -1,4 +1,5 @@
 # agv_app_msgs\msg\Relocation.msg
+# 手动重定位
 
 # 目标点的X坐标 (单位: m)
 float64 x

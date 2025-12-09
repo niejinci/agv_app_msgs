@@ -1,4 +1,5 @@
 # agv_app_msgs/msg/Translation.msg
+# 小车平动
 
 # X方向移动速度 (m/s)
 float64 vx

@@ -1,4 +1,5 @@
 # agv_app_msgs\msg\RemoteControl.msg
+# 遥控小车
 
 # 前后线速度 (m/s)
 float64 linear_x

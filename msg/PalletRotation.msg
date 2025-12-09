@@ -1,4 +1,5 @@
 # agv_app_msgs/msg/PalletRotation.msg
+# 托盘旋转
 
 # 目标旋转角度 (单位: 弧度)
 float64 angle
