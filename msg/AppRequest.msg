@@ -1,21 +1,39 @@
-# agv_app_msgs/msg/AppRequest.msg
-# 从 grpc_server 到 agv_app_server 的请求消息
-
-# 消息头，包含时间戳和frame_id
+# 消息头，包含时间戳
 std_msgs/Header header
 
 # 唯一请求ID，由grpc_server生成，用于异步响应匹配
 string request_id
 
-# 命令类型: 定义客户端可以发出的所有指令
-# 例如:LIFTING, REMOTE_CONTROL, START_TASK
+# 命令类型: 区分不同的指令
 string command_type
 
-# 参数: 使用JSON字符串来传递不同命令所需的参数
-# 这种设计提供了极大的灵活性，未来增加新命令或修改参数时，
-# 无需修改.msg文件，从而避免了双方重新编译和部署。
-#
-# 示例:
-# 1. 举升指令: command_type="LIFTING", params=R"({ "action": "pick", "height": 0.15 })";
-# 2. 遥控指令: command_type="REMOTE_CONTROL", params=R"({ "linear_velocity": 0.5, "angular_velocity": 30, "lateral_velocity": 0.8 })";
-string params_json
+################################################
+# 设置示教器操作模式
+SetOperatingMode set_operating_mode
+
+# 开始或停止数据流
+ManageDataSubscription manage_data_subscription
+
+# 触发AGV进行重定位
+Relocation relocation
+
+# 控制AGV进行平动
+Translation translation
+
+# 控制AGV进行原地旋转
+Rotation rotation
+
+# 控制托盘旋转
+PalletRotation pallet_rotation
+
+# 控制顶升机构动作
+Lifting lifting
+
+# 取消当前正在执行的任务
+CancelTask cancel_task
+
+# 以给定的速度遥控AGV
+RemoteControl remote_control
+
+# 触发或解除软急停
+EmergencyStop emergency_stop
