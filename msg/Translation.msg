@@ -15,4 +15,4 @@ uint8 MODE_LOCALIZATION=0   # 定位模式
 uint8 MODE_ODOM=1           # 里程计模式
 
 # 运动模式字段: 使用上面常量之一。默认为 MODE_ODOM (1).
-uint8 mode=MODE_ODOM
+uint8 mode 1
