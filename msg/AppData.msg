@@ -1,4 +1,4 @@
-# agv_app_msgs\msg\AppRequest.msg
+# agv_app_msgs\msg\AppData.msg
 # 从 agv_app_server 到 grpc_server 的数据/响应消息
 
 # 消息头
