@@ -30,6 +30,13 @@ set(msg_files
   "msg/Servor.msg"
   "msg/SetOperatingMode.msg"
   "msg/Translation.msg"
+  "msg/Error.msg"
+  "msg/RunningTask.msg"
+  "msg/Battery.msg"
+  "msg/SysInfo.msg"
+  "msg/ProcessInfo.msg"
+  "msg/Resource.msg"
+  "msg/Version.msg"
 )
 
 # 生成接口

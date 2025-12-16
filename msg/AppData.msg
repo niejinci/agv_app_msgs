@@ -34,3 +34,12 @@ QrCameraData qr_rack_camera_data
 
 # 点云
 PointXyzi[] points
+
+# 状态
+Error[] errors
+
+# 当前运行的任务信息
+RunningTask running_task
+
+# 系统信息
+SysInfo sys_info
