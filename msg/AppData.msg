@@ -43,3 +43,6 @@ RunningTask running_task
 
 # 系统信息
 SysInfo sys_info
+
+# 连接rcs的状态: true-已连接， false-未连接
+MqttState mqtt_state

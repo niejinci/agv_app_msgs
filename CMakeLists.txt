@@ -37,6 +37,7 @@ set(msg_files
   "msg/ProcessInfo.msg"
   "msg/Resource.msg"
   "msg/Version.msg"
+  "msg/MqttState.msg"
 )
 
 # 生成接口

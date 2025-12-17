@@ -7,7 +7,7 @@ Battery battery
 uint8[] gpio_input_bits
 uint8[] gpio_output_bits
 
-# 点击信息
+# 电机信息
 Servor right_servo
 Servor left_servo
 Servor lift_servo

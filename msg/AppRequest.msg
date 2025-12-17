@@ -40,3 +40,6 @@ RemoteControl remote_control
 
 # 触发或解除软急停
 EmergencyStop emergency_stop
+
+# 设置rcs上线
+MqttState mqtt_state
