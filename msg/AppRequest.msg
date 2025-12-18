@@ -11,8 +11,8 @@ string request_id
 string command_type
 
 ################################################
-# 设置示教器操作模式
-SetOperatingMode set_operating_mode
+# 设置agv操作模式
+OperatingMode operating_mode
 
 # 开始或停止数据流
 ManageDataSubscription manage_data_subscription

@@ -1,4 +1,4 @@
-# agv_app_msgs/msg/SetOperatingMode.msg
+# agv_app_msgs/msg/OperatingMode.msg
 # 设置小车控制模式
 
 # 操作模式常量定义
@@ -9,4 +9,4 @@ string SERVICE = "SERVICE"              # 服务模式，小车不能移动,用�
 string TEACHING = "TEACHING"            # 示教模式
 
 # 操作模式字段（取值为上述常量）
-string mode
+string mode "AUTOMATIC"

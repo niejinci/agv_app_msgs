@@ -28,7 +28,7 @@ set(msg_files
   "msg/RemoteControl.msg"
   "msg/Rotation.msg"
   "msg/Servor.msg"
-  "msg/SetOperatingMode.msg"
+  "msg/OperatingMode.msg"
   "msg/Translation.msg"
   "msg/Error.msg"
   "msg/RunningTask.msg"

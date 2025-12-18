@@ -46,3 +46,6 @@ SysInfo sys_info
 
 # 连接rcs的状态: true-已连接， false-未连接
 MqttState mqtt_state
+
+# 显示agv操作模式
+OperatingMode operating_mode
