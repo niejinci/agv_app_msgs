@@ -47,6 +47,16 @@ set(msg_files
   "msg/Resource.msg"
   "msg/Version.msg"
   "msg/MqttState.msg"
+  "msg/Avoid.msg"
+  "msg/ControlPoint.msg"
+  "msg/Action.msg"
+  "msg/ActionDetail.msg"
+  "msg/Node.msg"
+  "msg/NodeDetail.msg"
+  "msg/Edge.msg"
+  "msg/EdgeDetail.msg"
+  "msg/Task.msg"
+  "msg/TaskChain.msg"
 )
 
 # 生成接口

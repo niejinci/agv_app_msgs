@@ -43,3 +43,6 @@ EmergencyStop emergency_stop
 
 # 设置rcs上线
 MqttState mqtt_state
+
+# 任务链参数
+TaskChain task_chain
