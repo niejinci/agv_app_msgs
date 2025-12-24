@@ -23,13 +23,14 @@ string name
 string category
 
 # 顶升动作用
-string action
 # 高度，单位[m]
 float64 height
 
 # 充电动作用，充电时间，单位分钟
 uint32 charging_time
 
+# gpio 口的描述，例如: AGV到达离开位, AGV到达目标位
+string desc
 # gpio 口的下标，取值范围 [0, 23]
 int32 index
 # index 对应的值，0 or 1

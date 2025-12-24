@@ -20,8 +20,14 @@ agv_app_msgs 被多个包依赖，将其作为一个公共依赖，安装在一�
 CMake 的设计哲学是：CMakeLists.txt 定义“安装什么”，而用户（构建者）在编译时定义“安装到哪里”。
 
 ```sh
+# 进入工作区
+cd ~/njc_ws/
+
 # 清理旧的（可选，推荐）
 rm -rf build/agv_app_msgs install/agv_app_msgs
+
+# 更新工作区的代码
+cp -rf /mnt/d/byd_agv_njc/agv_app_msgs ./src/
 
 # 指定安装路径为生产环境目录
 # --install-base: 告诉 colcon 把最终产物放到哪里
